@@ -1,5 +1,4 @@
 
-def kamal
 pipeline {
     agent any
 
@@ -7,8 +6,9 @@ pipeline {
         stage('Hello') {
             steps {
                 script {
+                   def kamal
                    kamal = load "kam.groovy" 
-                   kamal.display-name("kkkkkkkkkkkkk")
+                   kamal.displaynames("kkkkkkkkkkkkk")
                 }
             }
         }
