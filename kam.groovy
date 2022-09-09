@@ -1,4 +1,4 @@
-def display-name(name) {
+def display-names(name) {
   echo "Hai ${name}" 
 
 }
