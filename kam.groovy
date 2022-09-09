@@ -1,5 +1,5 @@
 def display-name(name) {
-  echo "Hai ${display-name}" 
+  echo "Hai ${name}" 
 
 }
 
