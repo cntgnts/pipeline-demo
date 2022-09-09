@@ -3,4 +3,8 @@ def displaynames(x,y) {
 
 }
 
+def myjob(job) {
+  echo "My job is ${job}"
+}
+
 return this
