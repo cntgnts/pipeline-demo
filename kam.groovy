@@ -1,5 +1,5 @@
-def displaynames(name) {
-  echo "Hai ${name}" 
+def displaynames(x,y) {
+  echo "Hai ${x+y}" 
 
 }
 
