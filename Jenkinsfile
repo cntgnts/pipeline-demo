@@ -9,6 +9,7 @@ pipeline {
                    def kamal
                    kamal = load "kam.groovy" 
                    kamal.displaynames(10,20)
+                   kamal.myjob("DevOps")
                 }
             }
         }
