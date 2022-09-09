@@ -8,7 +8,7 @@ pipeline {
                 script {
                    def kamal
                    kamal = load "kam.groovy" 
-                   kamal.displaynames("kkkkkkkkkkkkk")
+                   kamal.displaynames(10,20)
                 }
             }
         }
